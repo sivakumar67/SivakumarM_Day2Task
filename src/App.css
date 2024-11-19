@@ -1,0 +1,5 @@
+.App{
+  display: grid; /* using for arrange the limited elements in the rows and columns  */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* using for how many elements placed in the row  */
+  gap: 20px; /* space between each component */
+}

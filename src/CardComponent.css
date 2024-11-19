@@ -1,0 +1,36 @@
+.container{
+    display: flex;   /* display flex for easy alighnments */
+    justify-content: center; /* this is for alighn items center in horizontally */
+    align-items: center; /* this is for alighn items center in vertically */
+    padding: 20px; /* inner side space , space between inside contnent and div frame */
+}
+.card{
+    background-color: aqua; /* background color of card */
+    border: 1px solid #3614ce; /* border of card with 1px thickness,solid style, blue color */
+    border-radius: 10px; /* use this to rounds the corner of card */
+    padding: 20px;
+    width: 300px;
+    }
+.card:hover{
+    box-shadow:0 0 20px  rgba(0, 0, 0, 1); /* use for styling effects when cursor over the card */
+}
+.card-image{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+.content{
+    padding: 20px;
+}
+.title{
+    font-size: 20px; 
+    color: #3614ce; /* font color */
+    margin-bottom: 20px;
+    }
+.card-button{
+    background-color: #7964da; /* button background color */
+    color: white; /* text color within the button */
+}
+.card-button:hover{
+    background-color: #3614ce;
+}
